@@ -1,0 +1,122 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-image {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#about {
+    color: rgb(212, 211, 211);
+    font-family: 'Poppins', 'Rubik', 'Roboto', 'Cardo', 'Righteous';
+    /*
+    background-color: rgb(0, 0, 0);
+    */
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.about-container {
+    width: 80%;
+    font-size: 15px;
+    margin-bottom: 88px;
+    /*margin-bottom: 100px;*/
+    text-align: center;
+}
+
+.skills {
+    margin-top: 19px;
+}
+
+.pointers-container {
+    padding-top: 5px;
+    position: relative;
+    top: 5px;
+    margin-bottom: 55px;
+}
+
+.pointer {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 104px;
+    height: 40px;
+    background: #D5D8DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.pointer i {
+    margin: 5px;
+    color: black;
+}
+
+.pointer a {
+    color: black;
+}
+
+.move-right {
+    transition: transform .5s;
+}
+
+.move-right:hover {
+    transform: translateX(5px);
+}
+
+.move-left {
+    transition: transform .5s;
+}
+
+.move-left:hover {
+    transform: translateX(-5px);
+}
+
+#about-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    background-color: #D5D8DC;
+    height: 60px;
+    width: 100%;
+}
+
+#about-footer i {
+    margin-left: 30px;
+    transition: transform 0.3s ease;
+}
+
+#about-footer i:hover {
+    transform: scale(1.05);
+}
+
+#about-footer div {
+    font-size: 40px;
+    color: black;
+}
+
+#about-footer div a {
+    color: #524a4a;
+}
+
+#about-footer p {
+    color: black;
+    text-align: end;
+    margin-right: 20px;
+}
+
+@media(max-width:1300px) {
+    .about-container h1 {
+        font-size: 30px;
+    }
+    .skills {
+        flex-wrap: wrap;
+    }
+}

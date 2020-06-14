@@ -1,0 +1,75 @@
+#projects {
+    color: rgb(212, 211, 211);
+    font-family: 'Poppins', 'Rubik', 'Roboto', 'Cardo', 'Righteous';
+    /*
+    background-color: rgb(0, 0, 0);
+    */
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#projects .pointers-container {
+    margin-bottom: 20px;
+}
+
+.my-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-top: 31px;
+    margin-right: 35px;
+}
+
+#more-button {
+    height: 1px;
+    float: right;
+    margin-right: 52px;
+    transition: transform 0.3s;
+}
+
+#more-button:hover {
+    transform: translateX(5px);
+}
+
+#more-button div {
+    background-color: #D5D8DC;
+    font-size: 25px;
+    padding: 5px 15px 5px 15px;
+    color: black;
+    border-radius: 5px;
+}
+
+#button-hide {
+    display: none;
+    transition: transform 0.3s;
+}
+
+@media(max-width:1300px) {
+    .my-row {
+        flex-direction: column;
+    }
+    #more-button {
+        display: none;
+    }
+    #button-hide {
+        display: inline-block;
+        margin-top: 15px;
+        width: 200px;
+        text-decoration: none;
+    }
+    #button-hide div {
+        background-color: #D5D8DC;
+        font-size: 25px;
+        font-weight: normal;
+        padding: 5px 15px 5px 15px;
+        color: black;
+        border-radius: 5px;
+    }
+    #button-hide:hover {
+        transform: translateX(5px);
+    }
+}

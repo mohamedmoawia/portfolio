@@ -1,0 +1,45 @@
+.image {
+    width: 250px;
+    height: 200px;
+    border-radius: 9px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 7px;
+    transition: transform 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.card-container {
+    margin-left: 35px;
+    color: black;
+    padding: 10px;
+    background-color: #D5D8DC;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.info i {
+    transition: transform, color;
+    color: black;
+}
+
+.info i:hover {
+    transform: scale(1.1);
+    color: grey;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+@media(max-width:1300px) {
+    .card-container {
+        margin-top: 15px;
+    }
+}
