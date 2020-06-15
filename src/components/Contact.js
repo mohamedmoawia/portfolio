@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
-import './contact.css';
-import './About.css';
+import '../style/contact.css';
+import '../style/common.css';
 
 
 class Contact extends React.Component {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './About.css';
+import '../style/common.css';
+import '../style/About.css';
 
 const About = () => {
 
@@ -58,7 +59,6 @@ const About = () => {
                 </div>
             </div>
             <footer id="about-footer">
-
                 <div id='icons-container' className="d-flex justify-content-center">
                     <a href={facebookLink} title="Facebook" target="blank">
                         <i className="fab fa-facebook-square"></i>

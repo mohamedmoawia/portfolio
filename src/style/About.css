@@ -1,14 +1,11 @@
-.page-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .bg-image {
     background-image: url("https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg");
     background-color: #cccccc;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    min-height: calc(100vh - 60px);
+    min-width: 100vw;
 }
 
 #about {
@@ -21,6 +18,7 @@
     font-weight: bold;
     width: 100%;
     text-align: center;
+    min-height: calc(100vh - 60px);
 }
 
 .about-container {
@@ -33,51 +31,6 @@
 
 .skills {
     margin-top: 19px;
-}
-
-.pointers-container {
-    padding-top: 5px;
-    position: relative;
-    top: 5px;
-    margin-bottom: 55px;
-}
-
-.pointer {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 104px;
-    height: 40px;
-    background: #D5D8DC;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 5px;
-    margin-left: 5px;
-    border-radius: 5px;
-}
-
-.pointer i {
-    margin: 5px;
-    color: black;
-}
-
-.pointer a {
-    color: black;
-}
-
-.move-right {
-    transition: transform .5s;
-}
-
-.move-right:hover {
-    transform: translateX(5px);
-}
-
-.move-left {
-    transition: transform .5s;
-}
-
-.move-left:hover {
-    transform: translateX(-5px);
 }
 
 #about-footer {

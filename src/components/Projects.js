@@ -10,14 +10,14 @@ import DrumPad from '../images/drum-pad.jpeg';
 import ViedoSearch from '../images/video-search.PNG';
 
 
-import './projects.css';
-
+import '../style/projects.css';
+import '../style/common.css';
 
 
 const Projects = () => {
     return (
         <div>
-            <div className='bg-image'>
+            <div className='bg-image' style={{ minHeight: '100vh' }}>
 
                 <div id='projects'>
                     <div className="pointers-container d-flex justify-content-between container-fluid">

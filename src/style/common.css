@@ -1,0 +1,44 @@
+.pointers-container {
+    padding-top: 5px;
+    position: relative;
+    top: 5px;
+    margin-bottom: 55px;
+}
+
+.pointer {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 104px;
+    height: 40px;
+    background: #D5D8DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.pointer i {
+    margin: 5px;
+    color: black;
+}
+
+.pointer a {
+    color: black;
+}
+
+.move-right {
+    transition: transform .5s;
+}
+
+.move-right:hover {
+    transform: translateX(5px);
+}
+
+.move-left {
+    transition: transform .5s;
+}
+
+.move-left:hover {
+    transform: translateX(-5px);
+}

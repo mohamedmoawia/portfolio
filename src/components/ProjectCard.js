@@ -1,5 +1,6 @@
 import React from 'react';
-import './ProjectCard.css';
+
+import '../style/ProjectCard.css';
 
 const ProjectCard = (props) => {
     const { projectName, projectImage, codeLink, projectLink } = props
