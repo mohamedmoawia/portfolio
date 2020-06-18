@@ -70,6 +70,9 @@
         font-size: 30px;
     }
     .skills {
-        flex-wrap: wrap;
+        flex-direction: column !important;
+    }
+    .skills div {
+        width: 100% !important;
     }
 }

@@ -44,15 +44,21 @@ const About = () => {
 
                         <h2 className='mt-5'>Skills</h2>
                         <div className='skills d-flex justify-content-around'>
-                            <div style={{ color: 'red', fontSize: '55px' }}><i className="fab fa-html5"></i></div>
-                            <div style={{ color: 'blue', fontSize: '55px' }}><i className="fab fa-css3-alt"></i></div>
-                            <div style={{ color: '#ffc107c7', fontSize: '55px' }}><i className="fab fa-js-square"></i></div>
-                            <div style={{ color: '#007bff', fontSize: '55px' }}><i className="fab fa-react"></i></div>
-                            <div style={{ color: 'purple', fontSize: '55px' }}><i className="fab fa-resolving"></i></div>
-                            <div style={{ color: '#ef00ff', fontSize: '55px' }}><i className="fab fa-sass"></i></div>
-                            <div style={{ color: 'purple', fontSize: '55px' }}><i className="fab fa-bootstrap"></i></div>
-                            <div style={{ color: 'orange', fontSize: '55px' }}><i className="fab fa-git-square"></i></div>
-                            <div style={{ color: '#b7afaf', fontSize: '55px' }}><i className="fab fa-github-square"></i></div>
+                            <div className='d-flex justify-content-around' style={{ width: 'calc(100% / 3)' }}>
+                                <div style={{ color: 'red', fontSize: '55px' }}><i className="fab fa-html5"></i></div>
+                                <div style={{ color: 'blue', fontSize: '55px' }}><i className="fab fa-css3-alt"></i></div>
+                                <div style={{ color: '#ffc107c7', fontSize: '55px' }}><i className="fab fa-js-square"></i></div>
+                            </div>
+                            <div className="d-flex justify-content-around" style={{ width: 'calc(100% / 3)' }}>
+                                <div style={{ color: '#007bff', fontSize: '55px' }}><i className="fab fa-react"></i></div>
+                                <div style={{ color: 'purple', fontSize: '55px' }}><i className="fab fa-resolving"></i></div>
+                                <div style={{ color: '#ef00ff', fontSize: '55px' }}><i className="fab fa-sass"></i></div>
+                            </div>
+                            <div className="d-flex justify-content-around" style={{ width: 'calc(100% / 3)' }}>
+                                <div style={{ color: 'purple', fontSize: '55px' }}><i className="fab fa-bootstrap"></i></div>
+                                <div style={{ color: 'orange', fontSize: '55px' }}><i className="fab fa-git-square"></i></div>
+                                <div style={{ color: '#b7afaf', fontSize: '55px' }}><i className="fab fa-github-square"></i></div>
+                            </div>
                         </div>
 
                     </div>
