@@ -26,11 +26,12 @@
 @media(max-width:650px) {
     #home h1 {
         font-size: 30px;
-        padding-left: 14px;
+        padding-left: 20px;
     }
     #home img {
         height: 40px;
         margin-left: -12px;
+        top: 0;
     }
     #content {
         flex-direction: column;
