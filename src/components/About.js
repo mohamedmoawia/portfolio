@@ -5,7 +5,7 @@ import '../style/About.css';
 
 const About = () => {
 
-    const ResumeLink = "https://drive.google.com/file/d/16Z2WySy_6SdTHOYn56-0i_b8UuZmQyYB/view?ths=true";
+    const ResumeLink = "https://drive.google.com/file/d/16Z2WySy_6SdTHOYn56-0i_b8UuZmQyYB/view?usp=sharing";
     const facebookLink = "https://www.facebook.com/M.ma3wya";
     const GithubLink = "https://github.com/mohamedmoawia";
     const LinkedinLink = "https://www.linkedin.com/in/mohamedmoawia";
