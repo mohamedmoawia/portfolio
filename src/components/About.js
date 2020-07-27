@@ -5,7 +5,7 @@ import '../style/About.css';
 
 const About = () => {
 
-    const ResumeLink = "https://drive.google.com/file/d/16Z2WySy_6SdTHOYn56-0i_b8UuZmQyYB/view?usp=sharing";
+    const ResumeLink = "https://drive.google.com/file/d/1TY_Y6LIG9c7x_P5ookUKTyBRgwmHs07o/view?usp=sharing";
     const facebookLink = "https://www.facebook.com/M.ma3wya";
     const GithubLink = "https://github.com/mohamedmoawia";
     const LinkedinLink = "https://www.linkedin.com/in/mohamedmoawia";
@@ -39,7 +39,7 @@ const About = () => {
 
                     <div className="about-container d-flex flex-column">
                         <h1>About Mohamed</h1>
-                        <p>I am Mohamed Moawya graduated from faculty of Engineering, Communication & Electonics Department, Helwan Univeristy in 2019. I will make it simple for you. You will never regret hiring someone like me because I am always the smartest person in the room and that's because I always focus on details. Learning is always the key. Therefore, I am keen on learning new stuff to keep myself on the track. With all I mentioned above, I am sure I will fit in properly and be a great addition to the team. Finally, I am really interested in joing such a great well-known business where I will be more than willing to learn, gain experience and improve my skills. For more information about me, kindly check my<a href={ResumeLink} target="blank" title="Click me"> resume</a>.
+                        <p>I am Mohamed Moawya graduated from faculty of Engineering, Communication & Electonics Department, Helwan Univeristy in 2019. I will make it simple for you. You will never regret hiring someone like me because I am always the smartest person in the room and that's because I always focus on details. Learning is always the key. Therefore, I am keen on learning new stuff to keep myself on the track. With all I mentioned above, I am sure I will fit in properly and be a great addition to the team. Finally, I am really interested in joining such a great well-known business where I will be more than willing to learn, gain experience and improve my skills. For more information about me, kindly check my<a href={ResumeLink} target="blank" title="Click me"> resume</a>.
                         </p>
 
                         <h2 className='mt-5'>Skills</h2>
