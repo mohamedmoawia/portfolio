@@ -6,7 +6,11 @@ const ProjectCard = (props) => {
     const { projectName, projectImage, codeLink, projectLink } = props
     return (
         <div className='card-container'>
-            <a href={projectLink} target='blank'><div className='image' style={{ backgroundImage: `url(${projectImage})` }}></div></a>
+            <a href={projectLink} target='blank'>
+                <div className='image'>
+                    <img src={projectImage} alt ="omnifood website photo"></img>
+                </div>
+                </a>
             <div className='info'>
                 <span>{projectName}</span>
                 <div>

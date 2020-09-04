@@ -1,15 +1,13 @@
 #projects {
     color: rgb(212, 211, 211);
     font-family: 'Poppins', 'Rubik', 'Roboto', 'Cardo', 'Righteous';
-    /*
-    background-color: rgb(0, 0, 0);
-    */
     background-color: rgba(0, 0, 0, 0.4);
     font-weight: bold;
     width: 100%;
     text-align: center;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     min-height: 100vh;
+    overflow: hidden;
 }
 
 #projects .pointers-container {
