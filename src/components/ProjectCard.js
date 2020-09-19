@@ -8,9 +8,9 @@ const ProjectCard = (props) => {
         <div className='card-container'>
             <a href={projectLink} target='blank'>
                 <div className='image'>
-                    <img src={projectImage} alt ="omnifood website photo"></img>
+                    <img src={projectImage} alt="omnifood website"></img>
                 </div>
-                </a>
+            </a>
             <div className='info'>
                 <span>{projectName}</span>
                 <div>
